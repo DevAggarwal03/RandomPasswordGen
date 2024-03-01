@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>PassWord Generator!</h1>
+        <div id="len">
+            <label for="length"> Length of the password: </label>
+            <input placeholder="0" type="number" id="length">
+        </div>
+        <div class="pointers">
+            <span>
+                <input type="checkbox" id="lowercase">
+                <label for="lowercase">Lowercase</label>
+            </span>
+            <span>
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">Uppercase</label>
+            </span>
+            <span>
+                <input type="checkbox" id="numbers">
+                <label for="numbers">Numbers</label>
+            </span>
+            <span>
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Symbols</label>
+            </span>
+        </div>
+
+        <button id="submit" type="submit">submit</button>
+
+        <h3 id="GenPassword">Password: </h3>
+    </div>
+    <script src="./sctipt.js"></script>
+</body>
+</html>
