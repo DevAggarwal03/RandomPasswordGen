@@ -36,6 +36,8 @@ submit.onclick = function(){
     }
 
     document.getElementById("GenPassword").textContent = document.getElementById("GenPassword").textContent + actualPass;
+
+    document.getElementById("length").value = "";
 }
 
 
